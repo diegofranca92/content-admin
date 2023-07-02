@@ -1,20 +1,5 @@
 <template>
-  <nav>
-    <v-bottom-navigation>
-      <NuxtLink to="app/list">
-        <v-btn value="recent">
-          Lista
-          <v-icon>mdi-history</v-icon>
-        </v-btn>
-      </NuxtLink>
-      <NuxtLink to="app/cadastro">
-        <v-btn value="favorites">
-          Cadastro
-          <v-icon>mdi-heart</v-icon>
-        </v-btn>
-      </NuxtLink>
-    </v-bottom-navigation>
-  </nav>
+  <BottomNav />
 </template>
 
 <script lang="ts">

@@ -36,3 +36,10 @@
     </v-expand-transition>
   </v-card>
 </template>
+<script>
+export default {
+  data: () => ({
+    show: false,
+  }),
+}
+</script>

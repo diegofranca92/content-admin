@@ -11,12 +11,13 @@
         </template>
 
         <v-app-bar-title>Posts</v-app-bar-title>
-
+        <NuxtLink to="/app"> Login </NuxtLink>
         <template v-slot:append>
           <v-btn icon="mdi-dots-vertical"></v-btn>
         </template>
       </v-app-bar>
     </v-layout>
+    <Banner />
     <v-main>
         <v-container max-width="800" fluid>
           <v-row dense>
